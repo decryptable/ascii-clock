@@ -49,7 +49,7 @@ Press <kbd>Ctrl+C</kbd> to exit.
 ASCII Clock operates through a sophisticated multi-step process that transforms source code into a visual timepiece:
 
 ### 1. Source Code Processing
-- **Self-Reading**: The program reads its own source file (`main.py`) using Python's file I/O operations
+- **Self-Reading**: The program reads its own source file (`clock.py`) using Python's file I/O operations
 - **Docstring Removal**: Uses regex patterns to strip all docstrings (both single and multi-line) and comments from the source code
 - **Minification**: Removes excessive whitespace and empty lines to create a continuous stream of code characters
 - **Buffer Extension**: Duplicates the minified code multiple times to ensure sufficient characters for the display grid
